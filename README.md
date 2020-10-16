@@ -1,1 +1,1 @@
-# nginx
+# Basic Nginx Configuration
