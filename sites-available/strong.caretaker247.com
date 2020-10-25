@@ -1,7 +1,7 @@
 server {
  listen 80;
  listen [::]:80;
- server_name strongr.caretaker247.com;
+ server_name strong.caretaker247.com;
  return 301 https://$host$request_uri;
 
 }
@@ -12,7 +12,7 @@ server {
     ssl_certificate /etc/letsencrypt/live/caretaker247.com/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/caretaker247.com/privkey.pem; # managed by Certbot
     
-    server_name strongr.caretaker247.com;
+    server_name strong.caretaker247.com;
     root /var/www/html/strong;
     index index.html;
 
